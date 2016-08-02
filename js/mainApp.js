@@ -40,9 +40,9 @@
     var settings = {
       "async": true,
       "crossDomain": true,
-      "dataType":"text",
-      //"url": "http://localhost:4502/bin/headless?query=/content/geometrixx-outdoors/en/jcr:content",
-      "url": "http://localhost:4502/bin/headless?query=/content/dam/geometrixx-outdoors/activities/hiking/PDP_2_c05.jpg",
+      "dataType":"application/json",
+      "url": "http://localhost:4502/bin/headless?query=/content/geometrixx-outdoors/en/jcr:content",
+      //"url": "http://localhost:4502/bin/headless?query=/content/dam/geometrixx-outdoors/activities/hiking/PDP_2_c05.jpg",
       "method": "GET",
       xhrFields: {
               withCredentials: true,

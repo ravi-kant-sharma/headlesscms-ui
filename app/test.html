@@ -7,7 +7,7 @@
 <body ng-app="myApp" ng-controller="ContentController">
     <!--<p>Enter your Name: <input type = "text" ng-model = "contentURL"></p>-->
     <button ng-click="fetch()" >Fetch Content</button>
-    <!--<p>{{value}}</p>-->
-    <img class='imagem_artigo' ng-src="data:image/png;base64,{{value}}" alt="IMG DESC">
+    <p>{{value}}</p>
+    <img src="http://localhost:4502/bin/headless?query=/content/dam/geometrixx-outdoors/activities/hiking/PDP_2_c05.jpg">
 </body>
 </html>
